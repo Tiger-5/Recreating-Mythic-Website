@@ -1,0 +1,229 @@
+@font-face{
+    font-family: sf-pro-display-bold;
+    src: url(sf-pro-display/SFPRODISPLAYBOLD.OTF);
+}
+
+@font-face{
+    font-family: sf-pro-display-regular;
+    src: url(sf-pro-display/SFPRODISPLAYREGULAR.OTF);
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #f5f5f7;
+}
+
+.logo{
+    font-family: sf-pro-display-bold;
+    font-size: 20px ;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+li{
+    list-style: none;
+    font-family: sf-pro-display-regular;
+    display: inline-block;
+}
+
+lu{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.619);
+    backdrop-filter: blur(5px);
+}
+
+
+.dowloadnav{
+    height: 22px;
+    width: 85px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0071e3;
+    color: white;
+}
+
+header{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    position: fixed;
+}
+
+
+
+/* NavBar------------------------------------------- */
+
+.logoimg{
+    width: 124px;
+    height: 124px;
+    margin-top: 50px;
+}
+
+.imgdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.heroh1{
+    font-size: 39px;
+    font-family: sf-pro-display-bold;
+    color: #5412f6;
+    text-align: center;
+}
+
+.heroAbout{
+    font-family: sf-pro-display-regular;
+    color: rgba(87, 87, 87, 0.81);
+    font-size: 23px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    width: 900px;
+}
+
+.downloadhero{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 35px;
+   width: 150px;
+   background-color: #0071e3;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.fortext{
+    font-family: sf-pro-display-regular;
+    color: rgba(46, 46, 46, 0.735);
+    font-size: 15px;
+    text-align: center; 
+}
+
+.CTA{
+    height: 600px;
+    width: auto;
+   
+}
+
+.imgdiv2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* How section ---------------------------*/
+
+.white-background{
+    background-color: rgba(255, 255, 255, 0.607);
+    height: 1000px;
+}
+
+.whiteh1{
+    font-family: sf-pro-display-bold;
+    font-size: 39px;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px;
+    padding-top: 50px;
+}
+
+.colorblue{
+    color: #5412f6;
+}
+
+.whitep999{
+    font-family: sf-pro-display-regular;
+    color: rgba(87, 87, 87, 0.81);
+    font-size: 23px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+}
+
+/* Block Section One------------------- */
+
+.block1{
+    background-color: #ffffff;
+    margin-left: 30px;
+    border: none;
+    border-radius: 50px;
+    height: 750px;
+    width: 930px;
+}
+
+
+.libraryimg{
+    height: 570px;
+    width: auto;
+}
+
+.block1p1{
+    font-family: sf-pro-display-bold;
+    font-size: 20px;
+    color: #2294b1;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.block1p3{
+    font-family: sf-pro-display-regular;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.81);
+    margin-left: 30px;
+    
+}
+
+.block1p2{
+    font-family: sf-pro-display-regular;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.81);
+    margin-left: 30px;
+    
+}
+
+
+
+/* Block Section One------------------- */
+
+
+
+
+
+
+
+
+
+
+/* Block Section Two ------------------- */
+
+.block2{
+    border: 1px solid black;
+}
+
+.flex-container1{
+    display: flex;
+}
