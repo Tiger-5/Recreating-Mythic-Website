@@ -136,7 +136,7 @@ header{
 /* How section ---------------------------*/
 
 .white-background{
-    background-color: rgba(255, 255, 255, 0.607);
+    background-color: rgba(255, 255, 255, 0.165);
     height: 1000px;
 }
 
@@ -170,9 +170,10 @@ header{
     background-color: #ffffff;
     margin-left: 30px;
     border: none;
-    border-radius: 50px;
+    border-radius: 20px;
     height: 750px;
     width: 930px;
+    
 }
 
 
@@ -205,6 +206,34 @@ header{
     
 }
 
+.block2p2{
+    font-family: sf-pro-display-regular;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.81);
+    margin-left: 30px;
+}
+
+.block2h2{
+    font-family: sf-pro-display-bold;
+    font-size: 20px;
+    color: #2294b1;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.himg99382{
+    height: 300px;
+    width: auto;
+    
+}
+
+.jjshensss{
+    background-color: white;
+    padding-top: 5px;
+}
+
+
+    
 
 
 /* Block Section One------------------- */
