@@ -73,7 +73,7 @@ header{
 .logoimg{
     width: 124px;
     height: 124px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .imgdiv{
@@ -168,97 +168,80 @@ header{
     margin-bottom: 100px;
 }
 
-/* Block Section One------------------- */
-
-.block1{
-    background-color: #ffffff;
-    margin-left: 30px;
-    border: none;
-    border-radius: 20px;
-    height: 750px;
-    width: 930px;
-    
-}
 
 
-.libraryimg{
+
+/* <!-- Bento Section  ------> */
+
+
+.containerA {
+    display: grid;
+    grid-template-rows:  25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px ;
+    grid-template-columns: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px ;
+  }
+
+  .bentoback1A{
+    grid-row-start: 1;
+    grid-row-end: 33;
+    grid-column-start: 2;
+    grid-column-end: -23;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 10px;
+  }
+
+  .img01{
     height: 570px;
     width: auto;
-}
 
-.block1p1{
+  }
+
+  .containerAh3{
     font-family: sf-pro-display-bold;
-    font-size: 20px;
-    color: #2294b1;
-    margin-left: 30px;
-    margin-top: 30px;
-}
-
-.block1p3{
-    font-family: sf-pro-display-regular;
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.81);
     margin-left: 30px;
     
-}
+  }
 
-.block1p2{
+  .containerAP{
     font-family: sf-pro-display-regular;
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.81);
     margin-left: 30px;
-    
-}
+  }
 
-.block2p2{
+  .imgdisplayFF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bentoCC{
+    text-align: center;
     font-family: sf-pro-display-regular;
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.81);
-    margin-left: 30px;
-}
+    color: #000000a1;
+  }
 
-.block2h2{
-    font-family: sf-pro-display-bold;
-    font-size: 20px;
-    color: #2294b1;
-    margin-left: 30px;
-    margin-top: 30px;
-}
-
-.himg99382{
-    height: 300px;
+  .img02{
+    height: 275px;
     width: auto;
     
-}
+  }
 
-.jjshensss{
+  .bentoback1B{
+    grid-row-start: 1;
+    grid-row-end: -41;
+    grid-column-start: 57;
+    grid-column-end: -22;
     background-color: white;
-    padding-top: 5px;
+    border-radius: 15px;
+    padding-top: 10px;
+  }
+
+  .containerBh3{
+    margin-left: 30px;
+    font-family: sf-pro-display-bold;
+  }
+
+.containerBP{
+    font-family: sf-pro-display-regular;
+    margin-left: 30px;
 }
 
-
-    
-
-
-/* Block Section One------------------- */
-
-
-
-
-
-
-
-
-
-
-/* Block Section Two ------------------- */
-
-.block2{
-    border: 1px solid black;
-}
-
-.flex-container1{
-    display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
-}
