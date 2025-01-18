@@ -176,7 +176,7 @@ header{
 
 .containerA {
     display: grid;
-    grid-template-rows: 25px 25px  25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+    grid-template-rows:25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
     grid-template-columns: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px ;
     margin-left: auto;
     margin-right: auto;
@@ -207,6 +207,7 @@ header{
   .containerAP{
     font-family: sf-pro-display-regular;
     margin-left: 30px;
+    font-size: 18px;
   }
 
   .imgdisplayFF{
@@ -245,6 +246,9 @@ header{
 .containerBP{
     font-family: sf-pro-display-regular;
     margin-left: 30px;
+    font-size: 18px;
+    word-wrap: break-word;
+    width: 400px;
 }
 
 .bentoback1C{
@@ -282,6 +286,9 @@ header{
 .containerCP{
     font-family: sf-pro-display-regular;
     margin-left: 30px;
+    font-size: 18px;
+    word-wrap: break-word;
+    width: 400px;
 }
 
 
@@ -310,8 +317,8 @@ header{
     font-family: sf-pro-display-regular;
     padding-left: 30px;
     word-wrap: break-word;
-    width: 350px;
-    font-size: 17px;
+    width: 440px;
+    font-size: 18px;
 }
 
 .img04{
@@ -322,5 +329,64 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.bentoback1E{
+    grid-row-start: 57;
+    grid-row-end: 74;
+    grid-column-start: 2;
+    grid-column-end: -40;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.containerEh3{
+    padding-left: 30px;
+    font-family: sf-pro-display-bold;
+}
+
+.containerEP{
+    padding-left: 30px;
+    font-family: sf-pro-display-regular;
+    font-size: 18px;
+    word-wrap: break-word;
+    width: 440px;
+}
+
+.imgdisplayE{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img06{
+    height: 550px;
+    width: auto;
+}
+
+.bentoback1F{
+    grid-row-start: 39;
+    grid-row-end: 74;
+    grid-column-start: 22;
+    grid-column-end: -4;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.containerFh3{
+    padding-left: 30px;
+    font-family: sf-pro-display-bold;
+}
+
+.containerFP{
+    padding-left: 30px;
+    font-family: sf-pro-display-regular;
+    font-size: 17px;
+}
+
+.notice01{
+    text-align: center;
+    font-family: sf-pro-display-regular;
+    color: rgba(0, 0, 0, 0.683);
 }
 
