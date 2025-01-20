@@ -12,6 +12,7 @@ body{
     margin: 0%;
     padding: 0%;
     background-color: #f5f5f7;
+    height: 3800px;
 }
 
 .logo{
@@ -393,9 +394,39 @@ header{
 .footerflex{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 100px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.footerh3{
+    font-family: sf-pro-display-bold;
+    font-size: 26px;
+    color: black;
+}
+
+.footerP{
+    font-family:  sf-pro-display-regular;
+    font-size: 22px;
+    word-wrap: break-word;
+    width: 290px;
+    color: #0000007a;
+}
+
+.footerlink{
+    font-family: sf-pro-display-regular;
+    transition: color 0.2s;
+    transition: text-decoration 1.2s;
+    cursor: pointer;
+    color: #0000008e;
+}
+
+.footerlink:hover{
+    color: #0071e3;
+}
+
+.footerlink:active{
+    text-decoration: underline;
 }
 
