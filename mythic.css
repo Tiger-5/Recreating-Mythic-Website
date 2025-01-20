@@ -390,3 +390,12 @@ header{
     color: rgba(0, 0, 0, 0.683);
 }
 
+.footerflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
