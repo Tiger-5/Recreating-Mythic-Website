@@ -179,8 +179,9 @@ header{
     display: grid;
     grid-template-rows:25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
     grid-template-columns: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px ;
-    margin-left: auto;
-    margin-right: auto;
+    display: grid;
+    justify-content: center;
+    
 }
 
   .bentoback1A{
@@ -389,15 +390,23 @@ header{
     text-align: center;
     font-family: sf-pro-display-regular;
     color: rgba(0, 0, 0, 0.683);
+    margin-top: 50px;
 }
 
 .footerflex{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items:baseline;
+    justify-content: space-between ;
     margin-top: 100px;
     padding-left: 30px;
     padding-right: 30px;
+    
+}
+
+.boxfooter{
+    height: 800px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.706);
 }
 
 .footerh3{
@@ -417,7 +426,6 @@ header{
 .footerlink{
     font-family: sf-pro-display-regular;
     transition: color 0.2s;
-    transition: text-decoration 1.2s;
     cursor: pointer;
     color: #0000008e;
 }
@@ -428,5 +436,5 @@ header{
 
 .footerlink:active{
     text-decoration: underline;
-}
+}   
 
