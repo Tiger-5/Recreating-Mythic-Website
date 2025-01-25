@@ -18,6 +18,7 @@ body{
 .logo{
     font-family: sf-pro-display-bold;
     font-size: 20px ;
+    cursor: pointer;
 }
 
 li a{
@@ -30,11 +31,13 @@ li{
     list-style: none;
     font-family: sf-pro-display-regular;
     display: inline-block;
+    font-size: 15px;
 }
 
 lu{
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .navbar{
@@ -44,8 +47,8 @@ lu{
     border-bottom: 1px solid #e0e0e0;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     background-color: rgba(255, 255, 255, 0.619);
     backdrop-filter: blur(5px);
 }
@@ -56,8 +59,14 @@ lu{
     width: 85px;
     border-radius: 10px;
     border: none;
-    background-color: #0071e3;
+    background-color: rgb(0, 113, 227);
     color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.dowloadnav:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0, 113, 227, 0.5);
 }
 
 header{
@@ -113,6 +122,12 @@ header{
     margin-left: auto;
     margin-right: auto;
     font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.downloadhero:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0, 113, 227, 0.5);
 }
 
 .fortext{
@@ -125,13 +140,17 @@ header{
 .CTA{
     height: 600px;
     width: auto;
-   
+}
+
+.IMPword{
+    font-family: sf-pro-display-regular;
+    color: #313131;
 }
 
 .imgdiv2{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 /* How section ---------------------------*/
@@ -203,7 +222,7 @@ header{
   .containerAh3{
     font-family: sf-pro-display-bold;
     margin-left: 30px;
-    
+    color: #2294b1;
   }
 
   .containerAP{
@@ -243,6 +262,7 @@ header{
   .containerBh3{
     margin-left: 30px;
     font-family: sf-pro-display-bold;
+    color: #e241da;
   }
 
 .containerBP{
@@ -283,6 +303,7 @@ header{
 .containerCh3{
     margin-left: 30px;
     font-family: sf-pro-display-bold;
+    color: #3d44c3;
 }
 
 .containerCP{
@@ -313,6 +334,7 @@ header{
 .containerDh3{
     padding-left: 30px;
     font-family: sf-pro-display-bold;
+    color: #e241da;
 }
 
 .containerDP{
@@ -345,6 +367,7 @@ header{
 .containerEh3{
     padding-left: 30px;
     font-family: sf-pro-display-bold;
+    color: #2294b1;
 }
 
 .containerEP{
@@ -378,6 +401,7 @@ header{
 .containerFh3{
     padding-left: 30px;
     font-family: sf-pro-display-bold;
+    color: #3d44c3;
 }
 
 .containerFP{
@@ -427,7 +451,7 @@ header{
     font-family: sf-pro-display-regular;
     transition: color 0.2s;
     cursor: pointer;
-    color: #0000008e;
+    color: #5331ff8e;
 }
 
 .footerlink:hover{
